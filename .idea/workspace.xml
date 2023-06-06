@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7091fe65-8975-47ac-a9cd-374983bdcc0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_loops/CustomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_loops/ForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_loops/While.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays_loops/arrays/Arr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/conditions/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/conditions/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/conditions/Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/input_output/PrintYourAgeFromInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/input_output/PrintYourNameAndPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/input_output/PrintYourNameAndSurname.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_handling/StringHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_handling/StringHandling2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Ts/Test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Ts/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/functions/Func.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +41,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2QmKfLX6bTYGJAJ4pbsk8cIirWP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,6 +56,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,11 +65,17 @@
     "app.teamhub.trackedBranches": "-lghq93/master",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "gitlive.settings",
     "spring.configuration.checksum": "d9c4204e09ca362186142dd7caad5600",
+    "ts.external.directory.path": "C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +89,7 @@
       <updated>1685953423881</updated>
       <workItem from="1685953434188" duration="3148000" />
       <workItem from="1685978108576" duration="1085000" />
-      <workItem from="1686042176309" duration="22878000" />
+      <workItem from="1686042176309" duration="26161000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685957291444</created>
@@ -90,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685957291444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated">
+      <created>1686073356299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686073356299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +113,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
