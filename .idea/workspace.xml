@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7091fe65-8975-47ac-a9cd-374983bdcc0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Ts/Test.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/Ts/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/functions/Func.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Badge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/CompetitionRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes_objects/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,31 +61,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
-    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "app.teamhub.trackedBranches": "-lghq93/master",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "gitlive.settings",
-    "spring.configuration.checksum": "d9c4204e09ca362186142dd7caad5600",
-    "ts.external.directory.path": "C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
+    &quot;LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;-lghq93/master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d9c4204e09ca362186142dd7caad5600&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="SpaceReviewFiltersPersistance">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;NeedsReview&quot;,
+    &quot;reviewer&quot;: {
+      &quot;id&quot;: &quot;8b1Sf0y8o3n&quot;,
+      &quot;fullName&quot;: &quot;kamar baraka&quot;
+    }
+  }
+}</component>
+  <component name="SpaceReviewProjectSettings">
+    <option name="selectedReviewProjectId" value="1eK8wn0TTdvT" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,7 +108,10 @@
       <updated>1685953423881</updated>
       <workItem from="1685953434188" duration="3148000" />
       <workItem from="1685978108576" duration="1085000" />
-      <workItem from="1686042176309" duration="26161000" />
+      <workItem from="1686042176309" duration="27993000" />
+      <workItem from="1686158843790" duration="2240000" />
+      <workItem from="1686161621111" duration="8999000" />
+      <workItem from="1686223276724" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685957291444</created>
@@ -105,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686073356299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <created>1686077893253</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686077893253</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
