@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7091fe65-8975-47ac-a9cd-374983bdcc0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/live_session/FileReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/live_session/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/live_session/FileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/live_session/FileReading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +27,7 @@
         <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +50,9 @@
     <bower-package value="" />
     <bower.json value="" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vmbzye8y" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,6 +63,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php82\php.exe" />
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -62,34 +73,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
-    &quot;LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;app.teamhub.trackedBranches&quot;: &quot;-lghq93/master&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamar/Desktop/projects/JAVA/inventory_management_system&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d9c4204e09ca362186142dd7caad5600&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "app.teamhub.trackedBranches": "-lghq93/master",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/kamar/Desktop/projects/JAVA/inventory_management_system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "d9c4204e09ca362186142dd7caad5600",
+    "ts.external.directory.path": "C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="live_session" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PlayerTest.playerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="develhope_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_session.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="live_session" />
+      <option name="MAIN_CLASS_NAME" value="live_session.PlayerTest" />
+      <option name="METHOD_NAME" value="playerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest.playerTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpaceReviewFiltersPersistance">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;NeedsReview&quot;,
@@ -118,7 +170,8 @@
       <workItem from="1686223276724" duration="3670000" />
       <workItem from="1686730075695" duration="612000" />
       <workItem from="1688976857369" duration="2410000" />
-      <workItem from="1689149811013" duration="4265000" />
+      <workItem from="1689149811013" duration="4422000" />
+      <workItem from="1689258333999" duration="4262000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685957291444</created>
@@ -163,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688980785989</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated">
+      <option name="closed" value="true" />
+      <created>1689154351813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689154351813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
