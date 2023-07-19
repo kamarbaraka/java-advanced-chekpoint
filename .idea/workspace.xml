@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7091fe65-8975-47ac-a9cd-374983bdcc0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/live_session/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/live_session/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/live_session/MathUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/live_session/FileReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/live_session/FileReading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="kamarbaraka &lt;kamar254baraka@gmail.com&gt;" />
         <option value="kamar baraka &lt;kamar254baraka@gmail.com&gt;" />
       </list>
     </option>
@@ -90,6 +87,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/kamar/Desktop/projects/JAVA/inventory_management_system",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -109,6 +107,10 @@
     "spring.configuration.checksum": "d9c4204e09ca362186142dd7caad5600",
     "ts.external.directory.path": "C:\\Users\\kamar\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -119,7 +121,53 @@
       <recent name="live_session" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MathUtilsTest.additionTest">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="4fdfff15-2cf3-4d4b-afd1-d659670acee2" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="develhope_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="live_session.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="live_session" />
+      <option name="MAIN_CLASS_NAME" value="live_session.MathUtilsTest" />
+      <option name="METHOD_NAME" value="additionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest.playerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="develhope_java" />
       <extension name="coverage">
@@ -138,6 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest.additionTest" />
         <item itemvalue="JUnit.PlayerTest.playerTest" />
       </list>
     </recent_temporary>
@@ -171,7 +220,8 @@
       <workItem from="1686730075695" duration="612000" />
       <workItem from="1688976857369" duration="2410000" />
       <workItem from="1689149811013" duration="4422000" />
-      <workItem from="1689258333999" duration="4262000" />
+      <workItem from="1689258333999" duration="4351000" />
+      <workItem from="1689755727806" duration="1974000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685957291444</created>
@@ -224,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689154351813</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated">
+      <option name="closed" value="true" />
+      <created>1689263125301</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689263125301</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
