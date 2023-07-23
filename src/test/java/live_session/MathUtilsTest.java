@@ -9,6 +9,7 @@ class MathUtilsTest {
     @Test
     public void additionTest(){
 
+
         MathUtils calculator = new MathUtils();
         int res = calculator.add(5, 6);
 
@@ -16,6 +17,8 @@ class MathUtilsTest {
             assertEquals(11, res);
             assertEquals(45, calculator.add(8, 6));
         });
+
+
     }
 
     @Test

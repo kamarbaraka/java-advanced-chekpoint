@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SAMPLE@localhost">
+  <database-model serializer="dbm" dbms="DB2_LUW" family-id="DB2_LUW" format-version="4.48">
+    <root id="1">
+      <Grants>|root||KAMAR|AC|G
+|root||ROOT|AC|G
+|root||PUBLIC|B|G
+|root||PUBLIC|CO|G
+|root||ROOT|CO|G
+|root||PUBLIC|CT|G
+|root||KAMAR|DA|G
+|root||ROOT|DA|G
+|root||KAMAR|Da|G
+|root||ROOT|Da|G
+|root||PUBLIC|IS|G
+|root||KAMAR|SCA|G
+IBMCONSOLE|schema||PUBLIC|ci|G
+IBM_RTMON|schema||PUBLIC|ci|G
+KAMAR|schema||PUBLIC|ci|G
+NULLID|schema||PUBLIC|ci|G
+ROOT|schema||PUBLIC|ci|G
+SQLJ|schema||PUBLIC|ci|G
+SYSIBMTS|schema||SYSTS_ADM|a|G
+SYSIBMTS|schema||SYSTS_MGR|a|G
+SYSIBMTS|schema||SYSTS_ADM|ci|G
+SYSIBMTS|schema||SYSTS_MGR|ci|G
+SYSIBMTS|schema||SYSTS_ADM|di|G
+SYSIBMTS|schema||SYSTS_MGR|di|G
+SYSPUBLIC|schema||PUBLIC|ci|G
+SYSPUBLIC|schema||PUBLIC|di|G
+SYSTOOLS|schema||PUBLIC|ci|G</Grants>
+      <ServerVersion>11.5.80</ServerVersion>
+    </root>
+    <role id="2" parent="1" name="SYSDEBUGPRIVATE">
+      <ObjectId>12</ObjectId>
+    </role>
+    <role id="3" parent="1" name="SYSTS_MGR">
+      <ObjectId>9</ObjectId>
+    </role>
+    <role id="4" parent="1" name="SYSDEBUG">
+      <ObjectId>11</ObjectId>
+    </role>
+    <role id="5" parent="1" name="SYSTS_ADM">
+      <ObjectId>8</ObjectId>
+    </role>
+    <role id="6" parent="1" name="SYSTS_USR">
+      <ObjectId>10</ObjectId>
+    </role>
+    <schema id="7" parent="1" name="SYSIBM"/>
+    <schema id="8" parent="1" name="SYSCAT"/>
+    <schema id="9" parent="1" name="SYSFUN"/>
+    <schema id="10" parent="1" name="SYSSTAT"/>
+    <schema id="11" parent="1" name="SYSPROC"/>
+    <schema id="12" parent="1" name="SYSIBMADM"/>
+    <schema id="13" parent="1" name="SYSIBMINTERNAL"/>
+    <schema id="14" parent="1" name="SYSIBMTS"/>
+    <schema id="15" parent="1" name="SYSPUBLIC"/>
+    <schema id="16" parent="1" name="NULLID"/>
+    <schema id="17" parent="1" name="SQLJ"/>
+    <schema id="18" parent="1" name="SYSTOOLS"/>
+    <schema id="19" parent="1" name="KAMAR"/>
+    <schema id="20" parent="1" name="IBMCONSOLE"/>
+    <schema id="21" parent="1" name="IBM_RTMON"/>
+    <schema id="22" parent="1" name="TEST"/>
+    <schema id="23" parent="1" name="ROOT">
+      <Current>1</Current>
+    </schema>
+    <user id="24" parent="1" name="KAMAR"/>
+    <user id="25" parent="1" name="ROOT"/>
+    <sequence id="26" parent="22" name="SQL230722042752730">
+      <AutoCreated>1</AutoCreated>
+      <DasType>INTEGER|0s</DasType>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>31</ObjectId>
+      <SequenceIdentity>1(21)</SequenceIdentity>
+      <StartValue>1</StartValue>
+    </sequence>
+    <table id="27" parent="22" name="USER"/>
+    <column id="28" parent="27" name="USER_ID">
+      <ColumnKind>generated-virtual</ColumnKind>
+      <DasType>INTEGER|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceId>31</SequenceId>
+    </column>
+    <column id="29" parent="27" name="USER_NAME">
+      <DasType>CHARACTER(50)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="30" parent="27" name="USER_AGE">
+      <DasType>INTEGER|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="31" parent="27" name="SQL230722042753150">
+      <ColNames>USER_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+      <IndexSchemaName>SYSIBM</IndexSchemaName>
+    </index>
+    <key id="32" parent="27" name="SQL230722042753290">
+      <ColNames>USER_ID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
